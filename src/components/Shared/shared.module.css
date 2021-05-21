@@ -1,0 +1,12 @@
+/*
+Whole bunch of shared styles! Used wherever!
+ */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+
+}
