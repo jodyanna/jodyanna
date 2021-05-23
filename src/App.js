@@ -6,6 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Welcome from "./components/Welcome";
+import Music from "./components/Music";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
           <Route path="/about">
 
           </Route>
-          <Route path="/users">
-
+          <Route path="/music">
+            <Music />
           </Route>
           <Route path="/">
             <Welcome />

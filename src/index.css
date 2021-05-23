@@ -1,4 +1,4 @@
-html, body {
+html, body, #root {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -6,7 +6,6 @@ html, body {
 }
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -19,11 +18,35 @@ code {
     monospace;
 }
 
+hr {
+  width: 80%;
+}
+
+/*
+Page container for each web page on the site.
+ */
 .page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+/*
+Link styles.
+ */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  text-decoration: none;
 }
 
 /*
