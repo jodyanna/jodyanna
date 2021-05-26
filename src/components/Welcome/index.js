@@ -12,10 +12,10 @@ export default function Welcome() {
       <hr />
 
       <div className={styles.linksContainerCol}>
-        <Link to="/programming" className={styles.link}>
+        <Link to="/dev" className={styles.link}>
           Web & App Development
         </Link>
-        <Link to="/japanese" className={styles.link}>
+        <Link to="/jpn" className={styles.link}>
           Japanese & Translations
         </Link>
         <Link to="/music" className={styles.link}>
