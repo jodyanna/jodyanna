@@ -20,6 +20,10 @@ export default function Lyrics() {
       .catch(err => console.log(err))
   }
 
+  /**
+   * Toggle language between EN and JP
+   * @param e
+   */
   const handleClick = e => {
     e.preventDefault();
     if (lang === "en") setLang("jp");

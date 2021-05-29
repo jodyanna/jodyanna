@@ -49,7 +49,7 @@ export default function Music() {
       <section>
         <h2>Maple's Magic Castle</h2>
         <p>
-          Small solo project that ran throughout 2017. I played all instruments and produced all songs.
+          Small solo project that ran throughout 2017.
         </p>
         <p><a href={c.MMC_BC_LINK}>Listen on bandcamp</a></p>
       </section>
