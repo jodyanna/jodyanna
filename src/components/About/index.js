@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./index.module.css";
 
 export default function About() {
@@ -29,13 +30,12 @@ export default function About() {
           A whole bunch of stuff! For starters...
         </p>
         <p>
-          You can check out my deployed websites and applications, click <a href="#">here</a> for some links.
+          You can check out my deployed websites and applications, click <Link to="/dev">here</Link> for some links.
           You are also welcome to view the source code for each project on GitHub.
         </p>
         <p>
           From time to time, I like to do unofficial "fan" translations of whatever Japanese media I find interesting.
           Here you can view some translations I've done or checkout some resources I recommend for study.
-          Interested in getting something translated? Click <a href="#">here</a> for more details.
         </p>
         <p>
           I also have an archive of material from all of the musical projects I've been involved with.

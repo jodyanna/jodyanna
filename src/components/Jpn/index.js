@@ -9,7 +9,7 @@ import Lyrics from "./Lyrics";
 import styles from './index.module.css';
 
 export default function Jpn() {
-  let { path, url } = useRouteMatch();
+  const { path, url } = useRouteMatch();
 
   return (
     <div>
