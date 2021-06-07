@@ -20,6 +20,7 @@ export default function Jpn() {
           <div className={styles.linksContainer}>
             <Link to={`${url}/shyness-boy`}>SHYNESS BOY by Anri</Link>
             <Link to={`${url}/paradisus-paradoxum`}>Paradisus-Paradoxum by MYTH & ROID</Link>
+            <Link to={`${url}/kataomoiwazurai`}>カタオモイワズライ by Cy8er</Link>
           </div>
         </Route>
 

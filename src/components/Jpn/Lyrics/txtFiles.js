@@ -1,8 +1,10 @@
 // Import all .txt files
-import shynessBoyEnRaw from "./shyness-boy-en.txt";
-import shynessBoyJpRaw from "./shyness-boy-jp.txt";
-import paradisusParadoxumEnRaw from "./paradisus-paradoxum-en.txt";
-import paradisusParadoxumJpRaw from "./paradisus-paradoxum-jp.txt";
+import shynessBoyEnRaw from "./txt/shyness-boy-en.txt";
+import shynessBoyJpRaw from "./txt/shyness-boy-jp.txt";
+import paradisusParadoxumEnRaw from "./txt/paradisus-paradoxum-en.txt";
+import paradisusParadoxumJpRaw from "./txt/paradisus-paradoxum-jp.txt";
+import kataomoiwazuraiEnRaw from "./txt/kataomoiwazurai-en.txt";
+import kataomoiwazuraiJpRaw from "./txt/kataomoiwazurai-jp.txt";
 
 // Export as one object
 export const lyrics = {
@@ -13,5 +15,9 @@ export const lyrics = {
   "paradisus-paradoxum": {
     en: paradisusParadoxumEnRaw,
     jp: paradisusParadoxumJpRaw
+  },
+  "kataomoiwazurai": {
+    en: kataomoiwazuraiEnRaw,
+    jp: kataomoiwazuraiJpRaw
   }
 }

@@ -35,12 +35,11 @@ export default function Lyrics() {
   }, [filename, lang]);
 
   return (
-    <div style={{whiteSpace: "pre"}}>
+    <div>
       <ToggleButton onClick={handleClick}>{lang}</ToggleButton>
       <article className={styles.textBlock}>
         {text}
       </article>
-
     </div>
   )
 }
