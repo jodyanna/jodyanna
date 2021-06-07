@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { lyrics } from "./txtFiles";
+import ToggleButton from "../../Shared/ToggleButton";
+import styles from "./index.module.css";
 
 export default function Lyrics() {
   const [ text, setText ]  = useState("");
@@ -22,10 +24,8 @@ export default function Lyrics() {
 
   /**
    * Toggle language between EN and JP
-   * @param e
    */
-  const handleClick = e => {
-    e.preventDefault();
+  const handleClick = () => {
     if (lang === "en") setLang("jp");
     else setLang("en");
   }
@@ -36,8 +36,11 @@ export default function Lyrics() {
 
   return (
     <div style={{whiteSpace: "pre"}}>
-      <button onClick={handleClick}>{lang}</button>
-      {text}
+      <ToggleButton onClick={handleClick}>{lang}</ToggleButton>
+      <article className={styles.textBlock}>
+        {text}
+      </article>
+
     </div>
   )
 }

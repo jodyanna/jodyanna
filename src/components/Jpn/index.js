@@ -12,8 +12,9 @@ export default function Jpn() {
   const { path, url } = useRouteMatch();
 
   return (
-    <div>
+    <div className={styles.container}>
       <Switch>
+
         <Route exact path={path}>
           <h2>Song Lyric Translations</h2>
           <div className={styles.linksContainer}>
@@ -21,9 +22,11 @@ export default function Jpn() {
             <Link to={`${url}/paradisus-paradoxum`}>Paradisus-Paradoxum by MYTH & ROID</Link>
           </div>
         </Route>
+
         <Route path={`${path}/:filename`}>
           <Lyrics />
         </Route>
+
       </Switch>
     </div>
   )
