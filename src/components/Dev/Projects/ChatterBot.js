@@ -2,7 +2,7 @@ import React from "react";
 import {
   CHATTER_BOT_SITE,
   CHATTER_BOT_REPO
-} from "../constants";
+} from "./constants";
 
 export default function ChatterBot() {
 

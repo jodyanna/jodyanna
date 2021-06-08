@@ -26,6 +26,7 @@ hr {
 Page container for each web page on the site.
  */
 .page {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -33,8 +34,10 @@ Page container for each web page on the site.
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
   overflow-x: hidden;
+  background-color: var(--black);
+  color: var(--pinkLight);
 }
 
 /*
@@ -42,9 +45,11 @@ Link styles.
  */
 a {
   text-decoration: none;
+  color: var(--pinkDark);
 }
 a:hover {
   text-decoration: underline;
+  color: var(--pinkInvert);
 }
 a:visited {
   text-decoration: none;

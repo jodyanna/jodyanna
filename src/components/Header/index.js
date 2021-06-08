@@ -26,16 +26,22 @@ export default function Header() {
   const renderPathLinks = () => {
     return routes.map((route, i) => {
       // Last route in path, do not link
-      if (i === routes.length - 1) return route
+      if (i === routes.length - 1) return <span className={styles.link}>{route}</span>
 
-      return <Link to={route} key={route}>{route}</Link>
+      let path = "";
+      for (let j = 0; j < i; j++) {
+        path += routes[j];
+      }
+      path += route;
+
+      return <Link to={path} key={route} className={styles.link}>{route}</Link>
     })
   }
 
   return (
     <header className={styles.container}>
       <p className={styles.path}>
-        <Link to="/">jodyanna</Link>
+        <Link to="/" className={styles.link}>jodyanna</Link>
         {renderPathLinks()}
       </p>
     </header>

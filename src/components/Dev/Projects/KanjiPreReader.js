@@ -2,7 +2,7 @@ import React from "react";
 import {
   KANJI_PRE_READER_SITE,
   KANJI_PRE_READER_REPO
-} from "../constants";
+} from "./constants";
 
 export default function KanjiPreReader() {
 

@@ -2,7 +2,7 @@ import React from "react";
 import {
   SPIRAL_DESIGNS_SITE,
   SPIRAL_DESIGNS_REPO
-} from "../constants";
+} from "./constants";
 
 export default function SpiralDesigns() {
   return (

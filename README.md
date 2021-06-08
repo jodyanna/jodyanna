@@ -1,1 +1,1 @@
-This is a special place. A secret place.
+Hi friend! Please enjoy your stay.

@@ -8,7 +8,7 @@ export default function About() {
     <div className={styles.container}>
       <h1>Q&A</h1>
 
-      <article>
+      <article className={styles.article}>
         <h2>Where am I? What is this?</h2>
         <p>
           You are on the internet and this is the personal website of me, jodyanna!
@@ -16,7 +16,7 @@ export default function About() {
         </p>
       </article>
 
-      <article>
+      <article className={styles.article}>
         <h2>Who are you?</h2>
         <p>
           I'm just some guy that enjoys learning new things and meeting new people.
@@ -24,7 +24,7 @@ export default function About() {
         </p>
       </article>
 
-      <article>
+      <article className={styles.article}>
         <h2>What can I do here?</h2>
         <p>
           A whole bunch of stuff! For starters...
